@@ -86,29 +86,6 @@ class SecondLessonInstrumentedTest {
                 .check(matches(isDisplayed()))
     }
 
-    @Test
-    fun testListViewHas4Items() {
-        onView(withId(R.id.pods_list))
-            .check(matches(hasItems(4)))
-    }
-
-    @Test
-    fun testListItemHasTitle() {
-        onData(anything())
-            .inAdapterView(withId(R.id.pods_list))
-            .atPosition(0)
-            .onChildView(withId(R.id.title))
-            .check(matches(withText("Title 1")))
-    }
-
-    @Test
-    fun testListItemHasContent() {
-        onData(anything())
-            .inAdapterView(withId(R.id.pods_list))
-            .atPosition(0)
-            .onChildView(withId(R.id.content))
-            .check(matches(withText("Content 1")))
-    }
 
     @Test
     fun testFabIsDisplayed() {

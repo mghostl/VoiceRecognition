@@ -10,4 +10,5 @@
     <string name="error_tts_is_not_ready">TTS is not ready</string>
     <string name="error_something_went_wrong">Something went wrong</string>
     <string name="voice_button_content_description">Tell What you want</string>
+    <string name="ok">OK</string>
 </resources>

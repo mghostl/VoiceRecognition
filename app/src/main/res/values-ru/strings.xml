@@ -11,4 +11,5 @@
     <string name="error_tts_is_not_ready">TTS недоступен</string>
     <string name="error_something_went_wrong">Что-то пошло не так</string>
     <string name="voice_button_content_description">Скажи, чего ты хочешь</string>
+    <string name="ok">OK</string>
 </resources>
